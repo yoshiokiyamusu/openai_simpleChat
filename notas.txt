@@ -4,9 +4,10 @@ git commit -m "first commit"
 git push -u repo_openai1 main
 
 
+#server deployed
+https://chatyk.onrender.com
 
 
-
-
+** only for info **
 git branch -M main
 git remote add repo_openai1 https://github.com/yoshiokiyamusu/openai_simpleChat.git
