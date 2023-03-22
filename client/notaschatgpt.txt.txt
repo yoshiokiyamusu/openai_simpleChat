@@ -1,0 +1,11 @@
+ npm install cors dotenv express nodemon openai
+
+
+npm run server
+
+http://localhost:5000
+
+cd client
+npm run dev
+
+ http://localhost:5173/

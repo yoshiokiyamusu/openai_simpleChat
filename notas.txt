@@ -1,0 +1,12 @@
+#Instruction tu commit on Github
+git add .
+git commit -m "first commit"
+git push -u repo_openai1 main
+
+
+
+
+
+
+git branch -M main
+git remote add repo_openai1 https://github.com/yoshiokiyamusu/openai_simpleChat.git
