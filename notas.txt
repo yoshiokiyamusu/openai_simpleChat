@@ -11,3 +11,81 @@ https://chatyk.onrender.com
 ** only for info **
 git branch -M main
 git remote add repo_openai1 https://github.com/yoshiokiyamusu/openai_simpleChat.git
+
+
+
+**consulta target*********************
+
+data1=[
+{
+    "name": "John Doe",
+    "age": 30,
+    "address": {
+        "street": "123 Main Street",
+        "city": "New York",
+        "state": "NY"
+    },
+    "hobbies": ["running", "reading", "cooking"]
+},
+{
+    "name": "Leonardo Doe",
+    "age": 20,
+    "address": {
+        "street": "la calle roja",
+        "city": "New York",
+        "state": "NY"
+    },
+    "hobbies": ["running", "reading", "cooking"]
+}
+]
+
+
+data2=[{
+"name": "yeye Doe",
+"name": "John Doe",
+"name": "John fefe",
+}]
+
+Please create a data3 object where data2 has data1 information crossing by "name", meaning a left join on data2
+
+- - - - 
+data3 = [
+  {
+    "name": "John Doe",
+    "age": 30,
+    "address": {
+        "street": "123 Main Street",
+        "city": "New York",
+        "state": "NY"
+    },
+    "hobbies": ["running", "reading", "cooking"]
+  }, 
+  { 
+    "name": "yeye Doe" 
+  }, 
+  { 
+    "name": "John fefe" 
+  }  
+]
+
+
+
+
+data3 = [{
+    "name": "John Doe",
+    "age": 30,
+    "address": {
+        "street": "123 Main Street",
+        "city": "New York",
+        "state": "NY"
+    },
+    "hobbies": ["running", "reading", "cooking"]
+}, {
+    "name": "Leonardo Doe",
+    "age": 20,
+    "address": {
+        "street": "la calle roja",
+        "city": "New York",
+        "state": "NY"
+    }, 
+   	"hobbies": ["running", 	"reading", 	"cooking"] 								   },  { 	"name":"yeye Doe"  },  { 	"name":"John fefe" }]
